@@ -4,7 +4,7 @@
   <img src="https://avatars.githubusercontent.com/u/9299437?v=4" alt="Image of Daniel Selase Anyidoho" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Leaderboard</b></h3>
+  <h3><b>Leaderboard Application</b></h3>
 
 </div>
 
@@ -119,11 +119,9 @@ Netlify, Github Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [Filter Scores] **Filtering Scores**
-- [Edit and Update] **Edit Name and Score**
-- [Date and Time] **Date and Time**
+**Filtering Scores**
+**Edit Name and Score**
+**Date and Time**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
