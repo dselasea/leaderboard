@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://avatars.githubusercontent.com/u/9299437?v=4" alt="Image of Daniel Selase Anyidoho" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Todo List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@
 - [📝 License](#license)
 
 
-# 📖 Todo List Application <a name="about-project"></a>
+# 📖 Leaderboard Application <a name="about-project"></a>
 
 
 **Leaderboard** application is a visual representation of a ranking system that displays a list of names along with their corresponding scores or points. 
