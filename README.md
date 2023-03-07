@@ -48,9 +48,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-**Input Form**
-**Score Display**
-**Refresh Button**
+  <ul>
+    <li>Input Form</li>
+    <li>Score Display</li>
+    <li>Refresh Button</li>
+  </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,9 +121,11 @@ Netlify, Github Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-**Filtering Scores**
-**Edit Name and Score**
-**Date and Time**
+<ul>
+    <li>Filtering Scores</li>
+    <li>Edit Name and Score</li>
+    <li>Date and Time</li>
+  </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
