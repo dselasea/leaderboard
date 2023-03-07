@@ -39,36 +39,12 @@
 ## 🛠 Built With <a name="built-with">HTML, CSS, JavaScript</a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> The project uses HTML, CSS, JavaScript and setting up webpack
-
-<details>
-  <summary>Client</summary>
   <ul>
     <li><a href="">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
     <li><a href="">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
     <li><a href="">JavaScript</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
     <li><a href="">API's</a></li>
   </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
@@ -135,9 +111,9 @@ Netlify, Github Pages
 
 👤 **Daniel Selase Anyidoho**
 
-- GitHub: [@githubhandle](https://github.com/dselasea)
-- Twitter: [@twitterhandle](https://twitter.com/dselasea)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/dselasea)
+- GitHub: [@dselasea](https://github.com/dselasea)
+- Twitter: [@dselasea](https://twitter.com/dselasea)
+- LinkedIn: [Daniel Selase Anyidoho](https://linkedin.com/in/dselasea)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
