@@ -10,8 +10,50 @@ body {
   font-family: 'Golos Text', sans-serif;
 }
 
+.btn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 0.5rem 0;
+}
+
 .container {
   max-width: 1200px;
   margin: 3rem auto;
-  border: 2px solid red;
+}
+
+.leaderboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.scores {
+  border: 2px solid #000;
+  margin-top: 3rem;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+form input {
+  padding: 0.3rem 1rem;
+}
+
+form .form-control {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .leaderboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
 }
