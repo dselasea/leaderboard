@@ -4,7 +4,7 @@
   <img src="https://avatars.githubusercontent.com/u/9299437?v=4" alt="Image of Daniel Selase Anyidoho" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Leaderboard</b></h3>
+  <h3><b>Leaderboard Application</b></h3>
 
 </div>
 
@@ -39,42 +39,20 @@
 ## 🛠 Built With <a name="built-with">HTML, CSS, JavaScript</a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> The project uses HTML, CSS, JavaScript and setting up webpack
-
-<details>
-  <summary>Client</summary>
   <ul>
     <li><a href="">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
     <li><a href="">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
     <li><a href="">JavaScript</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
     <li><a href="">API's</a></li>
   </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
-**Input Form**
-**Score Display**
-**Refresh Button**
+  <ul>
+    <li>Input Form</li>
+    <li>Score Display</li>
+    <li>Refresh Button</li>
+  </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,19 +113,19 @@ Netlify, Github Pages
 
 👤 **Daniel Selase Anyidoho**
 
-- GitHub: [@githubhandle](https://github.com/dselasea)
-- Twitter: [@twitterhandle](https://twitter.com/dselasea)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/dselasea)
+- GitHub: [@dselasea](https://github.com/dselasea)
+- Twitter: [@dselasea](https://twitter.com/dselasea)
+- LinkedIn: [Daniel Selase Anyidoho](https://linkedin.com/in/dselasea)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [Filter Scores] **Filtering Scores**
-- [Edit and Update] **Edit Name and Score**
-- [Date and Time] **Date and Time**
+<ul>
+    <li>Filtering Scores</li>
+    <li>Edit Name and Score</li>
+    <li>Date and Time</li>
+  </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
