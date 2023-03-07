@@ -33,6 +33,7 @@ ul li {
   justify-content: space-between;
   align-items: center;
 }
+
 .scores {
   border: 2px solid #000;
   margin-top: 3rem;
