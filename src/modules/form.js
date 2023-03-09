@@ -1,4 +1,4 @@
-import User from "./useClass";
+import User from "./userClass";
 
 window.addEventListener('DOMContentLoaded', () => {
 // Dom Selectors
@@ -7,8 +7,6 @@ const userName = document.querySelector('#name');
 const userScore = document.querySelector('#scores');
 const refresh = document.querySelector('#refresh');
 
-// Create user game
-// User.createGame();
 
 // Clear userInput
 const clearInput = () => {
@@ -19,8 +17,7 @@ const clearInput = () => {
 // Get userData
 const getUserData = (e) => {
   const user = new User(userName.value, userScore.value);
-  User.createGame();
-  console.log(user);
+  user.createUserScore(user);
   clearInput()
   e.preventDefault();
 }
