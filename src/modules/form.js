@@ -23,10 +23,9 @@ const getUserData = (e) => {
 }
 
 // Get scores
-const getScores = () => {
-  User.fetchScores().then(data => {
-    console.log(data);
-  });
+const getScores = async () => {
+  const scores = await User.fetchScores();
+  console.log(scores);
 }
 
 // Refresh to get scores from api
