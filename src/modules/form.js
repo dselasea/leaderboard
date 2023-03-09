@@ -1,8 +1,12 @@
 import User from "./useClass";
 
-const form = document.querySelector('#form');
+window.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('#form');
 const userName = document.querySelector('#name');
 const userScore = document.querySelector('#scores');
+const refresh = document.querySelector('#refresh');
+
+User.createGame();
 
 // Clear userInput
 const clearInput = () => {
@@ -18,6 +22,15 @@ const getUserData = (e) => {
   e.preventDefault();
 }
 
+const getScores = () => {
+  User.fetchScores().then(data => {
+    console.log(data);
+  });
+}
+
+// Refresh to get scores from api
+refresh.addEventListener('click', getScores)
 
 form.addEventListener('submit', getUserData);
+})
 
