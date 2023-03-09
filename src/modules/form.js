@@ -27,7 +27,7 @@ const getScores = async () => {
   const scores = await User.fetchScores();
   const scoresList = scores.result;
   scoresList.map((scorelist) => {
-    list += `<li><span>${scorelist.user}:</span> ${scorelist.score}</li>`;
+    list += `<li><span>${scorelist.user}:</span> ${scorelist.score} points</li>`;
     return list;
   });
   scoresData.innerHTML = list;
