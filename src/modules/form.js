@@ -6,6 +6,7 @@ const form = document.querySelector('#form');
 const userName = document.querySelector('#name');
 const userScore = document.querySelector('#scores');
 const refresh = document.querySelector('#refresh');
+const scoresData = document.querySelector('.scores-list');
 
 
 // Clear userInput
@@ -22,10 +23,16 @@ const getUserData = (e) => {
   e.preventDefault();
 }
 
+
 // Get scores
 const getScores = async () => {
+  let list = '';
   const scores = await User.fetchScores();
-  console.log(scores);
+  const scoresList = scores.result;
+  scoresList.map(scorelist => {
+    list += `<li><span>${scorelist.user}:</span> ${scorelist.score}</li>`;
+  })
+  scoresData.innerHTML = list;
 }
 
 // Refresh to get scores from api
