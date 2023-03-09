@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&family=Lato:wght@100;300;400;700;900&display=swap');
 
 :root {
-  --blue: #0F0BC9;;
+  --blue: #0f0bc9;
   --white: #fff;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -35,10 +36,9 @@ ul {
 }
 
 ul li {
-  padding: 0.5rem 0;
-  background-color: #FAF4FF;
-  margin-bottom: 0.3rem;
   padding: 1rem;
+  background-color: #faf4ff;
+  margin-bottom: 0.3rem;
   cursor: pointer;
   border-radius: 50px;
   transition: 0.3s ease;
@@ -47,7 +47,7 @@ ul li {
 }
 
 ul li:hover {
-  background-color: #0F0BC9;
+  background-color: #0f0bc9;
   color: var(--white);
 }
 
