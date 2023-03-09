@@ -1,6 +1,5 @@
 import User from './userClass.js';
 
-window.addEventListener('DOMContentLoaded', () => {
 // Dom Selectors
   const form = document.querySelector('#form');
   const userName = document.querySelector('#name');
@@ -39,4 +38,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Get form input
   form.addEventListener('submit', getUserData);
-});
+
+  window.addEventListener('DOMContentLoaded', getScores);
