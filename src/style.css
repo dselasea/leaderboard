@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&family=Lato:wght@100;300;400;700;900&display=swap');
 
+:root {
+  --blue: #0f0bc9;
+  --white: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +16,19 @@ body {
 }
 
 .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
   cursor: pointer;
+  background-color: var(--blue);
+  color: var(--white);
+  border: 0;
+}
+
+h1 {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 50px;
 }
 
 ul {
@@ -20,12 +36,25 @@ ul {
 }
 
 ul li {
-  padding: 0.5rem 0;
+  padding: 1rem;
+  background-color: #faf4ff;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li:hover {
+  background-color: #0f0bc9;
+  color: var(--white);
 }
 
 .container {
   max-width: 1200px;
   margin: 3rem auto;
+  text-align: center;
 }
 
 .leaderboard {
@@ -38,16 +67,16 @@ ul li {
   align-items: center;
 }
 
-.scores {
-  margin-top: 3rem;
-}
-
+.scores,
 form {
   margin-top: 3rem;
 }
 
-form input {
-  padding: 0.3rem 1rem;
+form .form-control input {
+  padding: 0.8rem 1rem;
+  width: 100%;
+  border-radius: 50px;
+  border: 1px solid var(--blue);
 }
 
 form .form-control {
@@ -57,7 +86,11 @@ form .form-control {
 @media only screen and (min-width: 720px) {
   .leaderboard {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
     gap: 3rem;
+  }
+
+  form .btn {
+    float: right;
   }
 }
