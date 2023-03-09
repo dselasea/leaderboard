@@ -1,3 +1,5 @@
+import User from "./useClass";
+
 const form = document.querySelector('#form');
 const userName = document.querySelector('#name');
 const userScore = document.querySelector('#scores');
@@ -10,8 +12,8 @@ const clearInput = () => {
 
 // Get userData
 const getUserData = (e) => {
-  console.log(userName.value);
-  console.log(userScore.value);
+  const user = new User(userName.value, userScore.value);
+  console.log(user);
   clearInput()
   e.preventDefault();
 }
