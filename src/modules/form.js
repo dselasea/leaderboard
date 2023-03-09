@@ -1,12 +1,14 @@
 import User from "./useClass";
 
 window.addEventListener('DOMContentLoaded', () => {
-  const form = document.querySelector('#form');
+// Dom Selectors
+const form = document.querySelector('#form');
 const userName = document.querySelector('#name');
 const userScore = document.querySelector('#scores');
 const refresh = document.querySelector('#refresh');
 
-User.createGame();
+// Create user game
+// User.createGame();
 
 // Clear userInput
 const clearInput = () => {
@@ -17,11 +19,13 @@ const clearInput = () => {
 // Get userData
 const getUserData = (e) => {
   const user = new User(userName.value, userScore.value);
+  User.createGame();
   console.log(user);
   clearInput()
   e.preventDefault();
 }
 
+// Get scores
 const getScores = () => {
   User.fetchScores().then(data => {
     console.log(data);
@@ -31,6 +35,9 @@ const getScores = () => {
 // Refresh to get scores from api
 refresh.addEventListener('click', getScores)
 
+// Get form input
 form.addEventListener('submit', getUserData);
+
 })
+
 
