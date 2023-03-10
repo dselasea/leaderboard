@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]- Not Available
+Live Demo Link: [Leaderboard](https://leaderboarddselasea.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
